@@ -12,8 +12,6 @@ RUN apk update && \
     apk add python && \
     cd mnt && \
     npm install && \
-    apk del build-base && \
-    apk del python && \
-    apk del npm;
+    
 # command executed at run
 CMD ["/bin/sh", "-c", "cd /mnt; node index.js;"]
