@@ -1,4 +1,4 @@
-# base image
+# the base image
 FROM alpine
 # port exposed
 EXPOSE 80
